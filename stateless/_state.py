@@ -101,7 +101,7 @@ def map_state(state, function):
     """
     def _new_operation(s):
         a, s2 = run(state, s)
-        return pure(function(a))
+        return function(a), s2
     return state.new(_new_operation)
 
 

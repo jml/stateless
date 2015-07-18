@@ -1,3 +1,5 @@
+# Cribbed from https://github.com/python-effect/effect, which is MIT license.
+
 from functools import partial, wraps
 import sys
 import types
